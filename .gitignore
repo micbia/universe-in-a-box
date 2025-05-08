@@ -1,0 +1,13 @@
+# Ignore results folder
+nbody/nbody_snapshot/
+nbody/solar_snapshot/
+
+# Ignore VS code folder
+.vscode/
+
+# Ignore jupyter notebook checkpoints and python cache
+.ipynb_checkpoints/
+nbody/__pycache__/
+hydro/__pycache__/
+galaxy/__pycache__/
+rt/__pycache__/
