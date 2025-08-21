@@ -1,6 +1,7 @@
 # Ignore results folder
 nbody/nbody_snapshot/
 nbody/solar_snapshot/
+nbody/cosmo_snapshot/*
 
 # Ignore VS code folder
 .vscode/
