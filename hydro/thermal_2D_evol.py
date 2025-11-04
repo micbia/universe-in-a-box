@@ -32,10 +32,10 @@ t_lim = (0.5*dx**2/alph_therm).cgs
 
 
 # Initial Conditions temperature
-#T = np.zeros((N,N)) * u.K
-#T[N//2,N//2] = 1e2 * u.K
+T = np.zeros((N,N)) * u.K
+T[N//2,N//2] = 1e4 * u.K
 np.random.seed(2025)
-T = (np.random.normal(loc=0., scale=50., size=(N,N))+1e2) * u.K
+#T = (np.random.normal(loc=0., scale=50., size=(N,N))+1e2) * u.K
 
 # pick a timestep that is a factor 2 times smaller then the limit
 dt = t_lim / 4 #2**np.ndim(T)

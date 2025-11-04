@@ -28,3 +28,4 @@ universe-in-a-box/
 ├── utils/             # Common functions, I/O, plotting, etc.
 ├── requirements.txt   # Python dependencies
 └── README.md          # This file
+```
