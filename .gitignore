@@ -1,4 +1,7 @@
 # Ignore results folder
+nbody/*.gif
+nbody/*mp4
+nbody/*hdf5
 nbody/nbody_snapshot/
 nbody/solar_snapshot/
 nbody/cosmo_snapshot/*
